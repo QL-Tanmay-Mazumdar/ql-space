@@ -1,0 +1,44 @@
+{
+  "name": "next-v14",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier ./src/**/* --write",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "next": "14",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-airbnb-base": "^15",
+    "eslint-config-airbnb-typescript": "^17",
+    "eslint-config-next": "^14",
+    "eslint-config-prettier": "^9",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^6",
+    "eslint-plugin-react-refresh": "^0",
+    "eslint-plugin-sonarjs": "^0",
+    "eslint-plugin-tsdoc": "^0",
+    "eslint-plugin-unicorn": "^51",
+    "husky": "^9",
+    "postcss": "^8",
+    "prettier": "^3",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  },
+  "repository": "git@github.com:tanmaymazumdar19/next-v14.git",
+  "author": "Tanmay Mazumdar <tanmay.mazumdar@quokkalabs.com>",
+  "license": "MIT",
+  "packageManager": "yarn@4.1.1"
+}
